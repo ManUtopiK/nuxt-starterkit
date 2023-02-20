@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "pinia": "^2.0.31",
+    "villus": "^2.1.1"
   }
 }
