@@ -10,17 +10,24 @@ export default defineNuxtConfig({
   ],
 
   i18n: {
-    vueI18n: {
-      legacy: false,
-      locale: 'en',
-      messages: {
-        en: {
-          welcome: 'Welcome',
-        },
-        fr: {
-          welcome: 'Bienvenue',
-        },
+    // https://i18n.nuxtjs.org/options-reference#baseurl
+    baseUrl: '',
+    // https://i18n.nuxtjs.org/options-reference#strategy
+    strategy: 'prefix',
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: './locales/',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.json',
       },
-    },
+      {
+        code: 'fr',
+        name: 'Français',
+        file: 'fr.json',
+      },
+    ],
   },
 })
