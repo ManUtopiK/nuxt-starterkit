@@ -8,7 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.2"
+    "nuxt": "^3.2.2",
+    "nuxt-vitest": "^0.6.6"
   },
   "dependencies": {
     "pinia": "^2.0.31",
