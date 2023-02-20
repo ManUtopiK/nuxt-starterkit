@@ -33,10 +33,6 @@ const { data, pending, error, refresh } = await useAsyncData('photos', () => exe
       index
     </nuxt-link>
 
-    <ul v-if="data">
-      <li v-for="(photo, i) of data.data.photos" :key="i">
-        {{ photo.id }}
-      </li>
-    </ul>
+    <p>{{ $t('welcome') }}</p>
   </div>
 </template>

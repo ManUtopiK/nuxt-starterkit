@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <nuxt-link to="/test">
+    <nuxt-link to="/test-villus">
       test
     </nuxt-link>
     <NuxtWelcome />
