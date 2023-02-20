@@ -14,14 +14,30 @@ const getPhotos = computed(() => {
 `
 })
 
-const { data } = useQuery({
-  query: getPhotos,
-  context: {
-    headers: {
-      'x-hasura-site-id': hasuraSiteId.value,
-    },
+const { data, pending, error, refresh } = await useAsyncData(
+  'mountains',
+  async () => {
+    const { data } = await useQuery({
+      query: getPhotos,
+      context: {
+        headers: {
+          'x-hasura-site-id': hasuraSiteId.value,
+        },
+      },
+    })
+    console.log(data.value)
+    return data
   },
-})
+)
+
+// const { data } = useQuery({
+//   query: getPhotos,
+//   context: {
+//     headers: {
+//       'x-hasura-site-id': hasuraSiteId.value,
+//     },
+//   },
+// })
 </script>
 
 <template>
