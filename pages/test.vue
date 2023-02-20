@@ -14,30 +14,17 @@ const getPhotos = computed(() => {
 `
 })
 
-const { data, pending, error, refresh } = await useAsyncData(
-  'mountains',
-  async () => {
-    const { data } = await useQuery({
-      query: getPhotos,
-      context: {
-        headers: {
-          'x-hasura-site-id': hasuraSiteId.value,
-        },
-      },
-    })
-    console.log(data.value)
-    return data
+const { execute, isFetching } = useQuery({
+  query: getPhotos,
+  fetchOnMount: false,
+  context: {
+    headers: {
+      'x-hasura-site-id': hasuraSiteId.value,
+    },
   },
-)
+})
 
-// const { data } = useQuery({
-//   query: getPhotos,
-//   context: {
-//     headers: {
-//       'x-hasura-site-id': hasuraSiteId.value,
-//     },
-//   },
-// })
+const { data, pending, error, refresh } = await useAsyncData('photos', () => execute())
 </script>
 
 <template>
@@ -47,7 +34,7 @@ const { data, pending, error, refresh } = await useAsyncData(
     </nuxt-link>
 
     <ul v-if="data">
-      <li v-for="(photo, i) of data.photos" :key="i">
+      <li v-for="(photo, i) of data.data.photos" :key="i">
         {{ photo.id }}
       </li>
     </ul>
