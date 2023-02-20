@@ -26,6 +26,10 @@ const { data } = useQuery({
 
 <template>
   <div>
+    <nuxt-link to="/">
+      index
+    </nuxt-link>
+
     <ul v-if="data">
       <li v-for="(photo, i) of data.photos" :key="i">
         {{ photo.id }}
