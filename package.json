@@ -8,6 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.35.2",
+    "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
     "nuxt-vitest": "^0.6.6"
   },
