@@ -5,6 +5,8 @@ export default defineNuxtConfig({
     'nuxt-vitest',
     // https://v8.i18n.nuxtjs.org
     '@nuxtjs/i18n',
+    // https://github.com/nuxt-modules/icon
+    'nuxt-icon',
   ],
 
   i18n: {

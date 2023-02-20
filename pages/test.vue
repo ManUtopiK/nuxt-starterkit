@@ -34,5 +34,6 @@ const { data, pending, error, refresh } = await useAsyncData('photos', () => exe
     </nuxt-link>
 
     <p>{{ $t('welcome') }}</p>
+    <Icon name="uil:github" />
   </div>
 </template>

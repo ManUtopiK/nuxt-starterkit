@@ -12,6 +12,7 @@
     "@nuxtjs/i18n": "8.0.0-beta.9",
     "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
+    "nuxt-icon": "^0.3.2",
     "nuxt-vitest": "^0.6.6"
   },
   "dependencies": {
