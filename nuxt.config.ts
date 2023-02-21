@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  extends: ['./base'],
   modules: [
     // https://github.com/danielroe/nuxt-vitest
     'nuxt-vitest',
@@ -12,6 +13,7 @@ export default defineNuxtConfig({
   ],
 
   css: ['@anu-vue/preset-theme-default/dist/style.css'],
+
   // https://github.com/unocss/unocss/issues/2113
   sourcemap: {
     server: true,
