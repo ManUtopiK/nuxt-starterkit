@@ -52,9 +52,9 @@ const { data, pending, error, refresh } = await useLazyAsyncData(
       index
     </nuxt-link>
 
-    <button @click="refresh()">
+    <ABtn @click="refresh()">
       refresh
-    </button>
+    </ABtn>
 
     <ul v-if="!pending">
       <li v-for="(photo, i) of data.photos" :key="i">

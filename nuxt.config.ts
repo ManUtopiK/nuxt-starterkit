@@ -7,7 +7,11 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     // https://github.com/nuxt-modules/icon
     'nuxt-icon',
+    //
+    '@anu-vue/nuxt', '@unocss/nuxt',
   ],
+
+  css: ['@anu-vue/preset-theme-default/dist/style.css'],
 
   i18n: {
     // https://i18n.nuxtjs.org/options-reference#baseurl

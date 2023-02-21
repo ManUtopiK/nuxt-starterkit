@@ -10,12 +10,15 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
     "@nuxtjs/i18n": "8.0.0-beta.9",
+    "@unocss/nuxt": "^0.49.7",
     "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
     "nuxt-icon": "^0.3.2",
     "nuxt-vitest": "^0.6.6"
   },
   "dependencies": {
+    "@anu-vue/nuxt": "^0.12.0",
+    "@anu-vue/preset-theme-default": "^0.12.0",
     "pinia": "^2.0.31",
     "vee-validate": "^4.7.4",
     "villus": "^2.1.1"
