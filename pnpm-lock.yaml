@@ -8,10 +8,12 @@ specifiers:
   nuxt-icon: ^0.3.2
   nuxt-vitest: ^0.6.6
   pinia: ^2.0.31
+  vee-validate: ^4.7.4
   villus: ^2.1.1
 
 dependencies:
   pinia: 2.0.31_hmuptsblhheur2tugfgucj7gc4
+  vee-validate: 4.7.4_vue@3.2.47
   villus: 2.1.1_graphql@16.6.0+vue@3.2.47
 
 devDependencies:
@@ -6944,6 +6946,15 @@ packages:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
     dev: true
+
+  /vee-validate/4.7.4_vue@3.2.47:
+    resolution: {integrity: sha512-pfhKluYimYvSQIiFoIY29NAgl0j24DqPsodlCny/NlOrYbougdjbL1C9yYqmba4Ka3YUY6vOZ0GE2wcwMsKQ5A==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.47
+    dev: false
 
   /villus/2.1.1_graphql@16.6.0+vue@3.2.47:
     resolution: {integrity: sha512-WX0DqUDJ00RU/cmYeX0u0xlCVWIuM/8EHR0XZQlc9HKgnaqaOqZmJ31sZ7m4gbIvhnojSSDzqeY/ZO7J2EY6dw==}

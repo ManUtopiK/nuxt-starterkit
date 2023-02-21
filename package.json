@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.31",
+    "vee-validate": "^4.7.4",
     "villus": "^2.1.1"
   }
 }
