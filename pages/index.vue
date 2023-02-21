@@ -7,6 +7,7 @@
     <nuxt-link to="/test-villus">
       test
     </nuxt-link>
+    <ButtonTest />
     <NuxtWelcome />
   </div>
 </template>
