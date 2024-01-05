@@ -1,7 +1,8 @@
 repo_name: ManUtopiK/nuxt-starterkit
 report_id: e3afaaf38f2752aa4856d123d4a2526d
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T18:37:00+00:00'
+timestamp: '2024-01-05T08:21:50+00:00'
 requested_by: ManUtopiK
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit/blob/main/package.json
   detection_source: package.json
   last_updated_by: ManUtopiK
   last_updated_on: 2023-02-20 08:58:55.000000000 Z
@@ -28,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -38,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit/blob/main/.eslintrc
   detection_source: ".eslintrc"
   last_updated_by: ManUtopiK
   last_updated_on: 2023-02-20 09:58:16.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit/blob/main/package.json
   detection_source: package.json
   last_updated_by: ManUtopiK
   last_updated_on: 2023-02-20 08:58:55.000000000 Z
@@ -67,6 +73,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/48301/default_0cffd727391e16b2a8bd6edbcffc0255a3a541d0.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-starterkit/blob/main/package.json
   detection_source: package.json
   last_updated_by: paidge
   last_updated_on: 2023-02-20 09:34:26.000000000 Z
